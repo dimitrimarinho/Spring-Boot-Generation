@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 // Cria um Endpoint
 @RequestMapping("/postagens")
 
-// Permiti que requisições de outras portas sejam aceitas na minha aplicação
+// Permite que requisições de outras portas sejam aceitas na minha aplicação
 @CrossOrigin("*")
 public class PostagemController {
 
